@@ -8,7 +8,12 @@ body{
     }
 
  footer { background-color:  #AA4069;
-       margin: 10px; }
+       margin: 10px; 
+       height: 80px;
+       clear: both;
+       font-size: 60%;
+       padding: 10px;
+       }
 
 header{ 
 
@@ -22,13 +27,22 @@ header{
     
     }
 
+p { 
+font-size: 100%; 
+font-family: comic sans ms;
+background-color: #8B72BE; 
+}
+
 
 nav{ background-color: #AA4069; 
         margin: 10px;
-      height: 35px; 
+      height: 45px; 
       border-radius: 5px; 
-      } 
-
+      padding: 10px; 
+      font-size: 90%;
+      text-align: center;
+      color: black;
+       }
 main{ 
       background-color: #8B72BE; 
    margin-left: 10px;
@@ -44,16 +58,38 @@ main{
 h1 { font-size: 120%;
       color: darkblue; }
       
+      h5 { font-size: 100%;
+       color: black;
+       padding: 10px; }
 aside{ 
  background-color:  #8B72BE;
   margin: 20px;
    border-radius: 5px;
-    padding: 30px;
+    padding: 25px;
     font-size: 105%;
     float: right;
     width: 230px;
     }
     
     h2 { font-size: 100%;
-         color: darkblue; }
-             
+         color: black; }
+         
+.sideright-image {
+ 
+width:300px;
+float: right;
+clear:right;
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;
+opacity: 0.9;
+}
+
+
+.sideleft-image {
+ 
+width:300px;
+float: center;
+clear:center;
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;
+opacity: 0.9; }
